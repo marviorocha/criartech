@@ -1,7 +1,7 @@
 ---
-title: 'Sage Kirk'
+title: 'Mislene Viana'
 image: '/images/team/sage-kirk-485982-unsplash.jpg'
-jobtitle: 'Accountant'
+jobtitle: 'Negócios'
 email: 'sage@test.com'
 linkedinurl: ''
 ---

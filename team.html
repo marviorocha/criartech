@@ -1,5 +1,5 @@
 ---
-title: Team
+title: Equipe
 layout: default
 bodyClass: page-team-list
 ---
@@ -9,16 +9,19 @@ bodyClass: page-team-list
     <div class="row">
       <div class="col-12">
         <h1>Meet The Team</h1>
-        <p>
-          Our team of qualified accountants and financial consultants can help
-          your business at any stage of it's growth.
-        </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, voluptate
+        nam incidunt odit dolorum laboriosam.
+      </p>
+<p>    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, voluptate
+    nam incidunt odit dolorum laboriosam.</p>
       </div>
     </div>
   </div>
 </div>
 
 <div class="container pb-6">
+  <p></p>
   <div class="row">
     {% for team in site.team %}
     <div class="col-12 col-md-6 mb-1">
@@ -36,7 +39,7 @@ bodyClass: page-team-list
           <h2 class="team-name">{{ team.title }}</h2>
           <p class="team-description">{{ team.Jobtitle }}</p>
           {% if team.Linkedinurl %}
-          <a target="_blank" href="{{ team.Linkedinurl }}">Linked In</a> 
+          <a target="_blank" href="{{ team.Linkedinurl }}">Linked In</a>
           {% endif %}
         </div>
         <div class="team-content">{{ team.content }}</div>
