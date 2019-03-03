@@ -1,4 +1,4 @@
-baseurl: ''
+baseurl: 'https://marviorocha.github.io/criartech/'
 exclude: ['README.md']
 permalink: pretty
 title: 'Criartech'
